@@ -1,5 +1,8 @@
 package br.ufjf.dcc.poo.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Produto {
 	///atributos e variaveis
 	private int codigoProduto;
@@ -40,6 +43,11 @@ public class Produto {
 		this.especificacao = especificacao;
 	}
 	
+	///metodos
+	public ArrayList<Produto> buscarProduto(Produto produto){
+		ArrayList<Produto> produtos = new ArrayList<>();
+		return produtos;
+	}
 	
 
 }
