@@ -7,8 +7,6 @@ public class Produto {
 	///atributos e variaveis
 	private int codigoProduto;
 	private String nome;
-	private String descricao;
-	private float preco;
 	private EspecificacaoProduto especificacao = new EspecificacaoProduto();
 	
 	//getters e setters
@@ -23,18 +21,6 @@ public class Produto {
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-	public String getDescricao() {
-		return descricao;
-	}
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
-	}
-	public float getPreco() {
-		return preco;
-	}
-	public void setPreco(float preco) {
-		this.preco = preco;
 	}
 	public EspecificacaoProduto getEspecificacao() {
 		return especificacao;

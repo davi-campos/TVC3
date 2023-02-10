@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarrinhoCompras {
-	///atributos e variaveis	
+	///atributos e variaveis
 	private Pedido pedido = new Pedido();
-	private ItensCompra itens = new ItensCompra();
-	private List<CarrinhoCompras> carrinho = new ArrayList<CarrinhoCompras>();
+	private List<ItensCompra> carrinho = new ArrayList<ItensCompra>();
 	
 	//getter e setters	
 	public Pedido getPedido() {
@@ -16,16 +15,10 @@ public class CarrinhoCompras {
 	public void setPedido(Pedido pedido) {
 		this.pedido = pedido;
 	}
-	public ItensCompra getItens() {
-		return itens;
-	}
-	public void setItens(ItensCompra itens) {
-		this.itens = itens;
-	}
-	public List<CarrinhoCompras> getCarrinho() {
+	public List<ItensCompra> getCarrinho() {
 		return carrinho;
 	}
-	public void setCarrinho(List<CarrinhoCompras> carrinho) {
+	public void setCarrinho(List<ItensCompra> carrinho) {
 		this.carrinho = carrinho;
 	}
 	

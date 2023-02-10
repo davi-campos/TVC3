@@ -25,12 +25,13 @@ public class Login {
 	}
 	public void setCarrinho(CarrinhoCompras carrinho) {
 		this.carrinho = carrinho;
-	}
+	}	
+
 	//metodos
 	public void createUsuario() {
 		
 	}
-	public void efetudarLogin() {
+	public void efetuarLogin() {
 		
 	}
 
