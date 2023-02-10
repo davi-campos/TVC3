@@ -1,7 +1,7 @@
 package br.ufjf.dcc.poo.model;
 
 public class ItensCompra {
-	//atributos e variaveis (sem atributos)
+	///atributos e variaveis (sem atributos)
 	private Produto produto = new Produto();
 	
 	//getters e setters

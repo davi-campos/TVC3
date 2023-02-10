@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarrinhoCompras {
-	//atributos e variaveis	
+	///atributos e variaveis	
 	private Pedido pedido = new Pedido();
 	private ItensCompra itens = new ItensCompra();
 	private List<CarrinhoCompras> carrinho = new ArrayList<CarrinhoCompras>();

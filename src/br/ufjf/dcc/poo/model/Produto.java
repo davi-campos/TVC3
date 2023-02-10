@@ -1,7 +1,7 @@
 package br.ufjf.dcc.poo.model;
 
 public class Produto {
-	//atributos e variaveis
+	///atributos e variaveis
 	private int codigoProduto;
 	private String nome;
 	private String descricao;

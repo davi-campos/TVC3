@@ -3,7 +3,7 @@ package br.ufjf.dcc.poo.model;
 import java.util.Date;
 
 public class Pagamento {
-	//atributos e variaveis
+	///atributos e variaveis
 	private int codigoProduto;
 	private String nome;
 	private String descricao;

@@ -1,7 +1,7 @@
 package br.ufjf.dcc.poo.model;
 
 public class Login {
-	//atributos e variaveis
+	///atributos e variaveis
 	private String usuario;
 	private String senha;
 	
